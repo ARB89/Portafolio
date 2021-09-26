@@ -1,7 +1,7 @@
 function alerta() {
     Swal.fire(
-        'The Internet?',
-        'That thing is still around?',
+        'Actualizando Base de datos',
+        'Actualizando base de datos o problemas de conexión',
         'question'
     )
 }
