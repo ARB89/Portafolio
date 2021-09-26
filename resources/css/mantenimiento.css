@@ -1,54 +1,65 @@
-/*PERSONALIZACIÓN DE P.MANTENIMIENTO*/
-
-body {
-    background-color: #f6f6f6;
-}
-
-.mantenimiento {
-    width: 600px;
-    height: 400px;
-    padding: 32px;
-    border: 1px solid #000;
-    border-radius: 10px;
-    margin-top: -200px;
-    margin-left: -300px;
-    background-color: #fff;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-}
-
-.mantenimiento h1,
-.mantenimiento h2,
-.mantenimiento p {
-    font-family: "noto sans", sans-serif;
-}
-
-.mantenimiento h1 {
-    font-size: 3em;
-    text-align: center;
-    padding: 16px;
-}
-
-.mantenimiento h2 {
-    font-size: 2em;
-    font-style: italic;
-}
-
-.mantenimiento p {
-    margin: 16px 0;
-    line-height: 1.5em;
-}
-
-
-/*TIPOGRAFÍAS*/
-
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
-
-/*INICIALIZACIÓN DE ESTILOS*/
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    /*PERSONALIZACIÓN DE P.MANTENIMIENTO*/
+    
+    body {
+        background-color: rgb(233, 165, 20);
+    }
+    
+    .mantenimiento {
+        width: 90%;
+        margin: 200px auto;
+        overflow: hidden;
+        padding: 32px;
+        border: 1px solid #000;
+        border-radius: 10px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .foto {
+        width: 90%;
+        margin: 100px auto;
+        overflow: hidden;
+        padding: 32px;
+        border: 1px solid #000;
+        border-radius: 10px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mantenimiento h1 {
+        font-family: "noto sans", sans-serif;
+    }
+    
+    .mantenimiento h1 {
+        font-size: 3em;
+        text-align: center;
+        padding: 16px;
+    }
+    /*TIPOGRAFÍAS*/
+    
+    @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+    /*INICIALIZACIÓN DE ESTILOS*/
+    
+    * {
+        -webkit-box-sizing: border-box;
+        ;
+        box-sizing: border-box;
+        ;
+    }
+    /*------ media queries----*/
+    
+    @media screen and (max-width:800px) {
+        .mantenimiento .mantenimiento h1 {
+            width: 46%;
+            font-size: 35px;
+        }
+    }
+    
+    @media screen and (max-width:500px) {
+        .mantenimiento .mantenimiento h1 {
+            width: 46%;
+            font-size: 18px;
+        }
+    }
